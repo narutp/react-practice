@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
+import { Button } from 'element-react'
 
 class Home extends Component {
     render() {
         return (
             <div>
-                a
+                <p>Home</p>
+                <Button type="primary">Primary Button</Button>
             </div>
         )
     }
